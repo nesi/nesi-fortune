@@ -1,6 +1,8 @@
 # nesi-fortune
 Fortune cookies advertising NeSI services, etc.
 
+LICENCE AGREEMENT
+
 Copyright (C) 2017 Landcare Research New Zealand Ltd. All rights reserved
 except as described herein.
 
@@ -24,3 +26,13 @@ At the time of writing, the NeSI Collaborators are the following organisations:
 - National Institute of Water and Atmospheric Research Ltd,
 - Landcare Research New Zealand Ltd,
 - The University of Otago.
+
+INSTRUCTIONS
+
+To install a fortune file, run strfile:
+
+      strfile FILE_NAME
+
+To use:
+
+      fortune /path/to/nesi-fortune/FILE_NAME
