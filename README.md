@@ -27,12 +27,18 @@ At the time of writing, the NeSI Collaborators are the following organisations:
 - Landcare Research New Zealand Ltd,
 - The University of Otago.
 
-INSTRUCTIONS
+## Adding new messages
 
-To install a fortune file, run strfile:
+* Edit the text file (e.g. consultancy)
+* Messages are separated by a line containing a '%' character
+* Generate the dat file that fortune uses, for example:
 
-      strfile FILE_NAME
+```
+strfile consultancy
+```
 
-To use:
+## Displaying a message:
 
-      fortune /path/to/nesi-fortune/FILE_NAME
+```
+fortune /path/to/nesi-fortune/FILE_NAME
+```
