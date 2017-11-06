@@ -31,11 +31,7 @@ At the time of writing, the NeSI Collaborators are the following organisations:
 
 * Edit the text file (e.g. consultancy)
 * Messages are separated by a line containing a '%' character
-* Generate the dat file that fortune uses, for example:
-
-```
-strfile consultancy
-```
+* Generate the dat file that fortune uses by running `./install.sh`
 
 ## Displaying a message:
 
