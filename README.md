@@ -33,8 +33,14 @@ At the time of writing, the NeSI Collaborators are the following organisations:
 * Messages are separated by a line containing a '%' character
 * Generate the dat file that fortune uses by running `./install.sh`
 
-## Displaying a message:
+## Displaying a message from a selected database:
 
 ```
 fortune /path/to/nesi-fortune/FILE_NAME
+```
+
+## Displaying a message randomly selected from all databases:
+
+```
+fortune /path/to/nesi-fortune
 ```
